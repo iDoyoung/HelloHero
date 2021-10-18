@@ -25,8 +25,8 @@ class ViewController: UIViewController {
             //make.centerY.equalToSuperview()
             make.leading.equalToSuperview().offset(60)
             make.trailing.equalToSuperview().offset(-60)
-            make.bottom.equalToSuperview().offset(-80)
-            make.top.equalToSuperview().offset(80)
+            make.bottom.equalTo(self.view.safeArea.bottom).offset(-80)
+            make.top.equalTo(self.view.safeArea.top).offset(80)
         }
         let tapSampleView = UITapGestureRecognizer(target: self, action: #selector(showDetailView))
         sampleView.isUserInteractionEnabled = true
@@ -39,3 +39,20 @@ class ViewController: UIViewController {
     
 }
 
+extension UIView {
+    /**
+     Apply safe Area
+     
+     When use SnapKit, apply safeArea
+     ```
+     import Snapkit
+     
+     view.snp.makeConstraints { make in
+        make.top.equal(self.view.safeArea.top)
+     }
+     ```
+     */
+    var safeArea: ConstraintLayoutGuideDSL {
+        return safeAreaLayoutGuide.snp
+    }
+}
