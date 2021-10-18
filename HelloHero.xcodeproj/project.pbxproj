@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F1FB7CD271D42F900A4AA5A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1FB7CC271D42F900A4AA5A /* DetailViewController.swift */; };
 		7FF9E801271D336600362C52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF9E800271D336600362C52 /* AppDelegate.swift */; };
 		7FF9E803271D336600362C52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF9E802271D336600362C52 /* SceneDelegate.swift */; };
 		7FF9E805271D336600362C52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF9E804271D336600362C52 /* ViewController.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7F1FB7CC271D42F900A4AA5A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7FF9E7FD271D336600362C52 /* HelloHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF9E800271D336600362C52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FF9E802271D336600362C52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				7FF9E809271D336D00362C52 /* Assets.xcassets */,
 				7FF9E80B271D336D00362C52 /* LaunchScreen.storyboard */,
 				7FF9E80E271D336D00362C52 /* Info.plist */,
+				7F1FB7CC271D42F900A4AA5A /* DetailViewController.swift */,
 			);
 			path = HelloHero;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				7FF9E805271D336600362C52 /* ViewController.swift in Sources */,
 				7FF9E801271D336600362C52 /* AppDelegate.swift in Sources */,
 				7FF9E803271D336600362C52 /* SceneDelegate.swift in Sources */,
+				7F1FB7CD271D42F900A4AA5A /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

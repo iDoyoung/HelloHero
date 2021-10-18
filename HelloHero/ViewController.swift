@@ -31,10 +31,13 @@ class ViewController: UIViewController {
         let tapSampleView = UITapGestureRecognizer(target: self, action: #selector(showDetailView))
         sampleView.isUserInteractionEnabled = true
         sampleView.addGestureRecognizer(tapSampleView)
+        sampleView.hero.id = "sample"
     }
 
     @objc func showDetailView() {
-        print("Hellp Deatil View")
+        let destinationVC = DetailViewController()
+        destinationVC.modalPresentationStyle = .fullScreen
+        present(destinationVC, animated: true, completion: nil)
     }
     
 }
